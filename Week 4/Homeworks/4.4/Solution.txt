@@ -1,2 +1,2 @@
-Use Query:  db.profile.find({"ns": "school2.students"}).sort({millis:-1})
+Use Query:  db.profile.find({"ns": "school2.students"}).sort({millis:-1}).limit(1).pretty()
 Answer : 15820
